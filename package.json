@@ -9,12 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "ethers": "^5.6.8",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.2",
+    "styled-components": "^5.3.5",
+    "walletlink": "^2.5.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }
